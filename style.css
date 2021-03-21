@@ -1,0 +1,352 @@
+body {
+    background-color:  white;
+    position: relative;
+    margin: 0% auto;
+    background-image: url(3UDenUR9zbk.jpg);
+    backdrop-filter: brightness(10%);
+    background-size: contain;
+    background-size: cover;  
+    transition: 0.5s;
+}
+.knopka {
+    margin-top: 20px;
+    position: relative;
+    padding-top: 0px ;
+    max-width: 250px;
+    height: 70px;
+    background-color: rgb(255, 106, 0);
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.knopka:hover {
+    transition: 1s ease-out;
+    filter: brightness(150%);
+}
+.txt {
+    font-family: Montserrat;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+}
+.atestat {
+    max-width: 45%;
+    position: relative;
+    float: right;
+    padding-top: 20px;
+    transition: 1s;
+}
+
+.shapka {
+    background-color:rgb(33, 115, 163);
+    max-width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+.karta {
+    padding-top: 20px;
+    width: 600px;
+    height: 450px;
+}
+.content {
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 0px 15px;
+    position: relative;
+    padding-bottom: 50px;
+}
+a {
+    text-decoration: none;
+}
+.zagolovok {
+    font-size: 70px;
+    font-family: Montserrat;
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding-top: 50px;
+}
+.text {
+    font-size: 50px;
+    font-family: Montserrat;
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding-top: 10px;
+}
+.text2 {
+    font-size: 50px;
+    font-family: Montserrat;
+    color: rgb(108, 178, 219);
+    display: flex;
+    padding-top: 10px;
+}
+
+.textlogo {
+    font-size: 35px;
+    font-family: Montserrat;
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: rgb(126, 126, 126) 0 0 3px;
+}
+footer {
+    background-color: rgb(61, 61, 61);
+    padding: 8px;
+    position: relative;
+}
+.fot {
+    text-align: center;
+    margin: 4px auto;
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 20px;
+} 
+@media only screen and (max-width: 1600px ) {
+    .content {
+        max-width: 1200px;
+    }
+    .zagolovok {
+        font-size: 50px;
+    }
+    .text {
+        font-size: 35px;
+    }
+    .text2 {
+        font-size: 35px;
+    }
+    .karta {
+        height: 400px;
+    }
+   
+}
+@media only screen and (max-width: 1200px ) {
+    .content {
+        max-width: 1200px;
+    }
+    .zagolovok {
+        font-size: 50px;
+    }
+    .text {
+        font-size: 35px;
+    }
+    .text2 {
+        font-size: 35px;
+    }
+    .karta {
+        height: 400px;
+        width: 550px;
+    }
+   
+}
+@media only screen and (max-width: 1050px ) {
+    .content {
+        max-width: 990px;
+        padding-bottom: 40px;
+    }
+    .zagolovok {
+        font-size: 42px;
+        padding-top: 30px;
+    }
+    .text {
+        font-size: 30px;
+    }
+    .text2 {
+        font-size: 30px;
+    }
+    .karta {
+        height: 400px;
+    }
+    .textlogo {
+        font-size: 25px;
+    }
+    .shapka {
+        height: 50px;
+    }
+    .karta {
+        width: 500px;
+        height: 350px;
+    }
+    footer {
+        padding: 6px;
+    }
+    .fot {
+        font-size: 15px;
+    } 
+    .knopka {
+        width: 200px;
+        height: 50px;
+    }
+    .txt {
+        font-size: 20px;
+        padding-top: 13px ;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .content {
+        max-width: 750px;
+    }
+    .zagolovok {
+        font-size: 35px;
+    }
+    .text {
+        font-size: 20px;
+    }
+    .text2 {
+        font-size: 20px;
+    }
+    .karta {
+        width: 500px;
+        height: 350px;
+    }
+    .atestat {
+        max-width: 70%;
+        float: none;
+    }
+}
+@media only screen and (max-width: 832px) {
+    .content {
+        max-width: none;
+    }
+    .zagolovok {
+        font-size: 35px;
+        padding-top: 30px;
+    }
+    .text {
+        font-size: 25px;
+    }
+    .text2 {
+        font-size: 25px;
+    }
+    .textlogo {
+        font-size: 20px;
+    }
+    .shapka {
+        height: 42px;
+    }
+    .karta {
+        width: 465px;
+        height: 300px;
+    }
+    footer {
+        padding: 6px;
+    }
+    .fot {
+        font-size: 15px;
+    } 
+    .atestat {
+        max-width: 62%;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .content {
+        max-width: none;
+    }
+    .zagolovok {
+        font-size: 35px;
+        padding-top: 30px;
+    }
+    .text {
+        font-size: 25px;
+    }
+    .text2 {
+        font-size: 25px;
+    }
+    .textlogo {
+        font-size: 20px;
+    }
+    .shapka {
+        height: 42px;
+    }
+    .karta {
+        width: 80%;
+        height: 300px;
+    }
+    footer {
+        padding: 6px;
+    }
+    .fot {
+        font-size: 15px;
+    } 
+    .atestat {
+        max-width: 80%;
+        float: none;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .content {
+        max-width: none;
+        padding-bottom: 30px;
+    }
+    .zagolovok {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    .text {
+        font-size: 25px;
+    }
+    .text2 {
+        font-size: 25px;
+    }
+    .textlogo {
+        font-size: 23px;
+    }
+    .shapka {
+        height: 50px;
+    }
+    .karta {
+        height: 300px;
+        width: 100%;
+        position: relative;
+    } 
+    .atestat {
+        float:none;
+        max-width: 100%;
+    }
+    footer {
+        padding: 7px;
+    }
+    .fot {
+        font-size: 17px;
+    } 
+}
+@media only screen and (max-width: 320px) {
+    .content {
+        max-width: none;
+        padding-bottom: 20px;
+    }
+    .zagolovok {
+        font-size: 27px;
+        padding-top: 20px;
+    }
+    .text {
+        font-size: 19px;
+    }
+    .text2 {
+        font-size: 19px;
+    }
+    .textlogo {
+        font-size: 20px;
+    }
+    .shapka {
+        height: 42px;
+    }
+    .karta {
+        max-width: 100%;
+    } 
+    footer {
+        padding: 6px;
+    }
+    .fot {
+        font-size: 15px;
+    }
+    .knopka {
+        width: 180px;
+        height: 40px;
+    }
+    .txt {
+        font-size: 15px;
+        padding-top: 10px ;
+    }
+}
